@@ -1,0 +1,37 @@
+footer{
+    height: 50px;
+    background-color: #222;
+    color:var(--color);
+    width: 100%;
+}
+
+.footer-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  
+}
+
+.footer-copy
+{
+    color:#a3a0a0;
+    font-weight: 400;
+}
+.footer-icons span{
+    font-size: 40px;
+    padding-top: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:750px) {
+    .footer-card{
+        flex-direction: column;
+    }
+    .footer-icons span{
+       
+       
+    }
+}

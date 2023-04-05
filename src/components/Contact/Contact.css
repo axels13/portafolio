@@ -1,0 +1,99 @@
+.contact__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:var(--white);
+    height: 400px;
+    background-color: #222;
+    box-shadow: rgba(0,0,0, 0.5) 0px 2px 8px 0px;
+}
+.contact__card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.contact__title{
+    text-align: left;
+
+}
+
+.contact__title h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact__card__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact__card_title{
+    text-align: left ;
+}
+
+
+
+.contact__card_title p{
+    font-weight: 400;
+} 
+
+.contact__email{
+  display: flex;
+  gap: 8rem;
+  justify-content: space-between;
+  align-items: center;
+   
+}
+
+.contact__email-card{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.span_grey ,a{
+    color:#bebdbdb8;
+    text-decoration: none;
+}
+
+.contact__email h4{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+}
+.contact__circle__icon{
+    background-color: #222;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 3rem;
+    top:3rem;
+}
+
+.icon_contact_location{
+    position: absolute;
+    font-size: 40px;
+    left: 0.5rem;
+    right: 0;
+    top:0.1rem;
+    bottom:0;
+}
+.icon_contact_email{
+    position: absolute;
+    font-size: 40px;
+    left: 0.5rem;
+    right: 0;
+    top:0.1rem;
+    bottom:0;
+}
+
+
+@media screen and (max-width: 992px) {
+    .contact__email{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
